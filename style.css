@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #f4f7ed;
+    color: #405344;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 850px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #52745b;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #879887;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: 1px solid #e1eadc;
+    box-shadow: 0 4px 12px rgba(80, 110, 80, 0.08);
+}
+
+h2 {
+    color: #5c8063;
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+h3 {
+    color: #66866b;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5eee0;
+}
+
+.mahasiswa {
+    background-color: #f8faf4;
+    border: 1px solid #e3ebdd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    margin: 12px 0 7px;
+    color: #526b56;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #d5e2d1;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #405344;
+    outline: none;
+}
+
+input:focus {
+    border-color: #91b496;
+    box-shadow: 0 0 0 3px rgba(145, 180, 150, 0.15);
+}
+
+button {
+    padding: 12px 20px;
+    margin: 8px 5px 0 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #8eae91;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #fdaeb2;
+}
+
+button[type="submit"] {
+    background-color: #6f9475;
+    color: #ffffff;
+}
+
+button[type="submit"]:hover {
+    background-color: #fdaeb2;
+}
+
+.card p {
+    margin: 12px 0;
+    line-height: 1.5;
+    color: #536957;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .card {
+        padding: 18px;
+    }
+
+    button {
+        width: 100%;
+        margin: 7px 0;
+    }
+}
